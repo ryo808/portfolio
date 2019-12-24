@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<meta name="keywords" content="Portfolio,WebDesign">
+<meta name="description" content="Welcome to Ryota's Portfolio site.">
+<title>Ryota's portfolio</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="header-box">
+      <div class="logo"><h1>Ryota's portfolio</h1></div>
+      <nav>
+        <ul>
+          <li><a id="current00_js" href="#kv">HOME</a></li>
+          <li><a id="current01_js" href="#about">ABOUT</a></li>
+          <li><a id="current02_js" href="#skill">SKILLS</a></li>
+          <li><a id="current03_js" href="#timeline">HISTORY</a></li>
+          <li><a id="current04_js" href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav class="drawer-box">
+     <div class="drawer">
+      <a class="navbar_brand" href="#"><h1>Ryota's portfolio</h1></a>
+      <div class="navbar_toggle">
+       <span class="navbar_toggle_icon"></span>
+       <span class="navbar_toggle_icon"></span>
+       <span class="navbar_toggle_icon"></span>
+      </div>
+     </div>
+     <div class="menu">
+      <ul>
+       <li><a href="#kv">HOME</a></li>
+       <li><a href="#about">ABOUT</a></li>
+       <li><a href="#skill">SKILLS</a></li>
+       <li><a href="#timeline">HISTORY</a></li>
+       <li><a href="#contact">CONTACT</a></li>
+      </ul>
+     </div>
+    </nav>
+  </header>
+  <div id="kv" class="parallax bg-01 position-now">
+    <p class="copy">Welcome to <br class="hidden-pc">my portfolio site.</p>
+    <canvas id="kvCanvas"></canvas>
+  </div>
+  <main>
+    <div id="about" class="position-now">
+      <div class="about-box">
+        <div class="about-box__flex">
+          <div class="col">
+            <h2>About Me</h2>
+            <p class="name">佐藤 遼太<span class="ruby">Sato Ryota</span></p>
+            <p class="note">山形県出身のフロントエンドエンジニア。<br class="hidden-sp">カイゼンと楽しい飲み会が好きです。<br>ゆくゆくはインフラやバックエンドの知見も広げて<br class="hidden-sp">巷で揶揄されるフルスタックエンジニアのような<br class="hidden-sp">雑食系を目指します。頑張ります。</p>
+          </div>
+          <div class="col">
+            <img src="../img/plof_img.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="skill" class="parallax bg-02 position-now">
+      <div class="skill-box">
+        <div class="skill-box__shadow">
+          <div class="skill-box__flex">
+            <div class="col">
+              <h2>SKILLS</h2>
+              <p>言語、フレームワーク、ライブラリ、ツール</p>
+              <p>HTML5,CSS3,Javascript,php,shellscript,NodeJS<br class="g-hidden-sp">bootstrap,jQuery,React<br class="g-hidden-sp">SublimeText,Dreamweaver,Atom,bracket,VSCode<br class="g-hidden-sp">npm script,ESlint,stylus,Emmet,BEM<br class="g-hidden-sp">Photoshop,Illustorator,XD<br class="g-hidden-sp">Backlog,Chatwork,HangoutChat<br class="g-hidden-sp">SEO,Page Speed Insites</p>
+            </div>
+            <div class="col">
+              <ul class="skill-graph">
+                <li>
+                  <span class="skill-graph-icon">
+                    <img src="../img/icon_html5.svg" alt="">
+                  </span>
+                  <span class="skill-graph-bar">
+                    <span class="fill" data-width="90%"></span>
+                  </span>
+                </li>
+                <li>
+                  <span class="skill-graph-icon">
+                    <img src="../img/icon_css3.svg" alt="">
+                  </span>
+                  <span class="skill-graph-bar">
+                    <span class="fill" data-width="90%"></span>
+                  </span>
+                </li>
+                <li>
+                  <span class="skill-graph-icon">
+                    <img src="../img/icon_js-square.svg" alt="">
+                  </span>
+                  <span class="skill-graph-bar">
+                    <span class="fill" data-width="70%"></span>
+                  </span>
+                </li>
+                <li>
+                  <span class="skill-graph-icon">
+                    <img src="../img/icon_php.svg" alt="">
+                  </span>
+                  <span class="skill-graph-bar">
+                    <span class="fill" data-width="60%"></span>
+                  </span>
+                </li>
+                <li>
+                  <span class="skill-graph-icon">
+                    <img src="../img/icon_node.svg" alt="">
+                  </span>
+                  <span class="skill-graph-bar">
+                    <span class="fill" data-width="50%"></span>
+                  </span>
+                </li>
+                <li>
+                  <span class="skill-graph-icon">
+                    <img src="../img/icon_terminal.svg" alt="">
+                  </span>
+                  <span class="skill-graph-bar">
+                    <span class="fill" data-width="50%"></span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="timeline" class="position-now">
+      <div class="timeline-box">
+        <h2>TIMELINE</h2>
+        <div class="main-timeline">
+          <div class="timeline">
+            <div class="timeline-icon"></div>
+            <div class="timeline-content">
+              <span class="date">2012</span>
+              <p class="description">
+                  山形県立鶴岡工業高等学校<br>電気電子システム科卒業<br>電気を扱う仕事よりも<br>PCをフルに使って仕事がしたいと思い<br>東北電子専門学校旧メディアデザイン科に入学
+              </p>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-icon"></div>
+            <div class="timeline-content">
+              <span class="date">2014</span>
+              <p class="description">
+                同校卒業<br>フロントエンドエンジニアとして<br>株式会社メンバーズに入社<br>デザイン、コーディング、<br>ディレクションを経験</p>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-icon"></div>
+            <div class="timeline-content">
+              <span class="date">2017~</span>
+              <p class="description">
+                転勤で上京<br>SESの運用案件で<br>フロントエンド一本に。<br>サイト改善、CMS設計等も担当</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="dots" class="parallax bg-03"></div>
+    <div id="portfolio">
+      <div class="portfolio-box">
+        <h2>MY PORTFOLIO</h2> 
+        <ul class="portfolio-filter">
+          <li class="filter-item" data-filter="*"><span>ALL</span></li>
+          <li data-filter=".web"><span>WEB</span></li>
+          <li data-filter=".other"><span>OTHER</span></li>
+        </ul>
+        <div class="portfolio-section">
+          <div class="col web">
+            あああああああああああああああああああああああああああああああああああああああああああああああああああ
+          </div>
+          <div class="col web">
+            いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい
+          </div>
+          <div class="col other">
+            ううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううう
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="parallax bg-04 position-now">
+      <div class="contact-box">
+        <h2><span>CONTACT</span></h2>
+        <p>ご連絡お待ちしております。</p>
+        <div class="contact-box__flex">
+          <div class="col">
+            <a href="mailto:ryobiz808@gmail.com"><img src="../img/icon_mail.svg" alt=""></a>
+          </div>
+          <div class="col">
+            <a href="https://github.com/ryo808/"><img src="../img/icon_github.svg" alt=""></a>
+          </div>
+          <div class="col">
+            <a href="https://twitter.com/ryrize"><img src="../img/icon_twitter.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p class="copyright">
+      &copy; satoryota <script>document.write(new Date().getFullYear());</script> Allright Reserved. 
+    </p>
+  </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script src="https://cdn.rawgit.com/ics-creative/ParticleJS/release/1.0.0/libs/particlejs.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="/js/script.js"></script>
+</body>
+</html>
