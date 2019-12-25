@@ -896,18 +896,18 @@ footer .copyright{
   }
 }
 .parallax.bg-01 {
-  background-image: url(../img/bg_kv.png);
+  background-image: url("/portfolio/img/bg_kv.png");
   background-position: center bottom;
   background-attachment: unset;
 }
 .parallax.bg-02 {
-  background-image: url(../img/bg_skill.png);
+  background-image: url("/portfolio/img/bg_skill.png");
 }
 .parallax.bg-03 {
-  background-image: url(../img/bg-bots.png);
+  background-image: url("/portfolio/img/bg-bots.png");
 }
 .parallax.bg-04 {
-  background-image: url(../img/bg-contact.png);
+  background-image: url("/portfolio/img/bg-contact.png");
 }
 /* mobile bugfix */
 @media screen and (max-width: 575px) {
@@ -929,15 +929,15 @@ footer .copyright{
     z-index: -1;
   }
   .parallax.bg-01::before {
-    background-image: url(../img/samplebg01.png);
+    background-image: url("/portfolio/img/samplebg01.png");
   }
   .parallax.bg-02::before {
-    background-image: url(../img/samplebg02.png);
+    background-image: url("/portfolio/img/samplebg02.png");
   }
   .parallax.bg-03::before {
-    background-image: url(../img/samplebg03.png);
+    background-image: url("/portfolio/img/samplebg03.png");
   }
   .parallax.bg-04::before {
-    background-image: url(../img/samplebg03.png);
+    background-image: url("/portfolio/img/samplebg03.png");
   }
 }
